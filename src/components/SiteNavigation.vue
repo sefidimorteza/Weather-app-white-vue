@@ -85,6 +85,7 @@ const addcity = () => {
     delete query.preview;
     query.id = locationObj.id
     router.replace({ query })
+    
 }
 
 </script>
